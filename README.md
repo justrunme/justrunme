@@ -87,10 +87,11 @@ _for tools, experiments, and ideas that shouldn't run as root._
 
 ## 💬 Ask Me About
 
-- GitOps, Helm, Argo CD, Terraform
-- CI/CD with GitHub Actions, GitLab CI
-- Secure CloudOps, SRE practices
-- That time I ran `terraform destroy` on the wrong workspace 🙃
+- 🔄 GitOps, Helm, Argo CD, Terraform  
+- ⚙️ CI/CD with GitHub Actions, GitLab CI  
+- 🛡️ Secure CloudOps, SRE practices  
+- 💥 That time I ran `terraform destroy` on the wrong workspace 🙃  
+- 📬 Chat with me on [Telegram → @justrunme](https://t.me/justrunme)
 
 ---
 
