@@ -93,4 +93,6 @@ _for tools, experiments, and ideas that shouldn't run as root._
 
 ---
 
-![Visitors](https://visitcount.itsvg.in/api?id=justrunme&icon=0&color=6)
+## 📟 Profile Counter
+
+![Profile Views](https://komarev.com/ghpvc/?username=justrunme&color=6f42c1&style=flat-square)
