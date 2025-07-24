@@ -18,7 +18,7 @@ Hi, I’m **Andrey** — a DevOps Engineer who enjoys making infrastructure reli
 - 🔐 Shift-left security (DevSecOps FTW)
 - 🎯 Architect GitOps at scale with Argo CD
 
-![Modern DevOps](https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif)
+![Cloud Infra](https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif)
 
 > ⚠️ Fun fact: I once fixed production with a single emoji reaction in Slack (long story).
 
