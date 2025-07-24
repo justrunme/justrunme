@@ -56,12 +56,12 @@ Explore some of my hands-on work in cloud automation, GitOps, security, and AI-i
 - 🧠 **[AI DevOps Agent](https://github.com/justrunme/ai-agent)**  
   _Speech-to-text + GPT + role detection — helps answer questions in real-time._
 
-- 🧬 **[Weaviate for Smart Log Search](https://github.com/your-username/weaviate-log-ai)**  
+- 🧬 **[DeepAgent: Autonomous Agents and Tool Discovery with MCP](https://github.com/justrunme/deepagent)**  
   _Indexing unstructured logs with vector search, semantic alerting & dashboards._
 
 ---
 
-> 💡 Want more? Visit [diplom.ai](https://diplom.ai) for future experiments.
+> 💡 Want more? Visit [https://github.com/justrunme?tab=repositories) for future experiments.
 
 ## 🤝 Let’s Work Together
 
