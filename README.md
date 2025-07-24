@@ -30,7 +30,7 @@ Explore some of my hands-on work in cloud automation, GitOps, security, and AI-i
 
 ### 🚀 Infrastructure & GitOps
 
-- 🔄 **[Self-Healing Infrastructure with Chaos Engineering](https://github.com/your-username/self-healing-infrastructure-chaos-engineering)**  
+- 🔄 **[Self-Healing Infrastructure with Chaos Engineering](https://github.com/your-username/self-healing-infrastructure-chaos-engineering](https://github.com/justrunme/self-healing-infrastructure-chaos-engineering)**  
   _Kubernetes + LitmusChaos + Prometheus — auto-recovery pipelines and dashboards._
 
 - 📦 **[GitOps Duel: ArgoCD vs Flux](https://github.com/your-username/gitops-duel-argocd-vs-flux)**  
