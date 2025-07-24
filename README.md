@@ -62,6 +62,7 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ![AWS](https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ### 🔧 IaC & GitOps
 ![Terraform](https://img.shields.io/badge/-Terraform-5C4EE5?style=for-the-badge&logo=terraform&logoColor=white)
@@ -76,6 +77,8 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ![Loki](https://img.shields.io/badge/-Loki-0D1117?style=for-the-badge&logo=grafana&logoColor=white)
 ![eBPF](https://img.shields.io/badge/-eBPF-black?style=for-the-badge&logo=ebpf&logoColor=white)
 ![Trivy](https://img.shields.io/badge/-Trivy-0F92FF?style=for-the-badge&logo=aqua&logoColor=white)
+![Prowler](https://img.shields.io/badge/-Prowler-EC1C24?style=for-the-badge&logo=amazonaws&logoColor=white)
+![AWS Security Hub](https://img.shields.io/badge/-AWS%20Security%20Hub-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ### 🧑‍💻 Programming & Automation
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
