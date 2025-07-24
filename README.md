@@ -1,13 +1,13 @@
 # 💫 About Me
 
-![DevOps banner](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
-
 > **"Infrastructure should be boring. That’s how you know it works."**
 
 Hi, I’m **Andrey** — a DevOps Engineer who enjoys making infrastructure reliable, reproducible, and occasionally funny 😎
 
 🔧 I design **self-healing platforms** with Kubernetes, GitOps, Terraform and CI/CD pipelines that deploy faster than you can say `kubectl get pods`.  
 💥 Breaking things in staging so they never break in prod.
+
+![DevOps banner](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
 
 ---
 
