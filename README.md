@@ -43,7 +43,7 @@ Explore some of my hands-on work in cloud automation, GitOps, security, and AI-i
 
 ### 🛡️ Security & Observability
 
-- 🔍 **[AWS Security Audit with Prowler](https://github.com/your-username/aws-security-prowler-report)**  
+- 🔍 **[AWS Security Audit with Prowler](https://github.com/justrunme/prowler)**  
   _Automated scanning with Prowler + integration with Security Hub + GitHub Actions._
 
 - 📊 **[Kubernetes Observability Stack](https://github.com/your-username/k8s-observability-grafana-loki)**  
