@@ -33,7 +33,7 @@ Explore some of my hands-on work in cloud automation, GitOps, security, and AI-i
 - 🔄 **[Self-Healing Infrastructure with Chaos Engineering](https://github.com/justrunme/self-healing-infrastructure-chaos-engineering)**  
   _Kubernetes + LitmusChaos + Prometheus — auto-recovery pipelines and dashboards._
 
-- 📦 **[GitOps Duel: ArgoCD vs Flux](https://github.com/your-username/gitops-duel-argocd-vs-flux)**  
+- 📦 **[GitOps Duel: ArgoCD vs Flux](https://github.com/justrunme/gitops-duel-argocd-vs-flux)**  
   _Side-by-side GitOps deployment comparison with ArgoCD and FluxCD on Kind._
 
 - ☁️ **[Multi-Cloud IaC with Terraform + Terragrunt](https://github.com/your-username/multicloud-terraform-terragrunt)**  
