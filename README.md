@@ -46,14 +46,14 @@ Explore some of my hands-on work in cloud automation, GitOps, security, and AI-i
 - 🔍 **[AWS Security Audit with Prowler](https://github.com/justrunme/prowler)**  
   _Automated scanning with Prowler + integration with Security Hub + GitHub Actions._
 
-- 📊 **[Kubernetes Observability Stack](https://github.com/your-username/k8s-observability-grafana-loki)**  
+- 📊 **[Cloud-Native GitOps Platform with ArgoCD, Terraform, Monitoring & Security](https://github.com/justrunme/cloud-devops-platform)**  
   _Prometheus, Loki, Grafana and Jaeger setup with alerting and dashboards._
 
 ---
 
-### 🤖 AI / Automation Projects
+### 🤖 MLOps / AI / Automation Projects
 
-- 🧠 **[AI Assistant for DevOps Interviews](https://github.com/your-username/ai-interview-coach)**  
+- 🧠 **[AI DevOps Agent](https://github.com/justrunme/ai-agent)**  
   _Speech-to-text + GPT + role detection — helps answer questions in real-time._
 
 - 🧬 **[Weaviate for Smart Log Search](https://github.com/your-username/weaviate-log-ai)**  
