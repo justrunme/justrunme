@@ -32,7 +32,7 @@ Hi, I’m **Andrey** — a DevOps Engineer who enjoys making infrastructure reli
 - Cloud-native compliance & security
 - Multi-cloud architecture (AWS / Azure / GCP)
 
-🌍 [**Visit my Lab → Self-Healing Infrastructure with Chaos Engineering**]([https://diplom.ai](https://justrunme.github.io/self-healing-infrastructure-chaos-engineering/))  
+🌍 [**Visit my Lab → Self-Healing Infrastructure with Chaos Engineering**](https://justrunme.github.io/self-healing-infrastructure-chaos-engineering/)  
 _for tools, experiments, and ideas that shouldn't run as root._
 
 ---
