@@ -24,6 +24,45 @@ Hi, I’m **Andrey** — a DevOps Engineer who enjoys making infrastructure reli
 
 ---
 
+## 🧪 My Projects
+
+Explore some of my hands-on work in cloud automation, GitOps, security, and AI-infrastructure tools:
+
+### 🚀 Infrastructure & GitOps
+
+- 🔄 **[Self-Healing Infrastructure with Chaos Engineering](https://github.com/your-username/self-healing-infrastructure-chaos-engineering)**  
+  _Kubernetes + LitmusChaos + Prometheus — auto-recovery pipelines and dashboards._
+
+- 📦 **[GitOps Duel: ArgoCD vs Flux](https://github.com/your-username/gitops-duel-argocd-vs-flux)**  
+  _Side-by-side GitOps deployment comparison with ArgoCD and FluxCD on Kind._
+
+- ☁️ **[Multi-Cloud IaC with Terraform + Terragrunt](https://github.com/your-username/multicloud-terraform-terragrunt)**  
+  _Reusable infrastructure stacks across AWS and Azure using Terragrunt modules._
+
+---
+
+### 🛡️ Security & Observability
+
+- 🔍 **[AWS Security Audit with Prowler](https://github.com/your-username/aws-security-prowler-report)**  
+  _Automated scanning with Prowler + integration with Security Hub + GitHub Actions._
+
+- 📊 **[Kubernetes Observability Stack](https://github.com/your-username/k8s-observability-grafana-loki)**  
+  _Prometheus, Loki, Grafana and Jaeger setup with alerting and dashboards._
+
+---
+
+### 🤖 AI / Automation Projects
+
+- 🧠 **[AI Assistant for DevOps Interviews](https://github.com/your-username/ai-interview-coach)**  
+  _Speech-to-text + GPT + role detection — helps answer questions in real-time._
+
+- 🧬 **[Weaviate for Smart Log Search](https://github.com/your-username/weaviate-log-ai)**  
+  _Indexing unstructured logs with vector search, semantic alerting & dashboards._
+
+---
+
+> 💡 Want more? Visit [diplom.ai](https://diplom.ai) for future experiments.
+
 ## 🤝 Let’s Work Together
 
 🔭 **Open to collaboration** on:
