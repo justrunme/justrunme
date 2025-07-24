@@ -36,7 +36,7 @@ Explore some of my hands-on work in cloud automation, GitOps, security, and AI-i
 - 📦 **[GitOps Duel: ArgoCD vs Flux](https://github.com/justrunme/gitops-duel-argocd-vs-flux)**  
   _Side-by-side GitOps deployment comparison with ArgoCD and FluxCD on Kind._
 
-- ☁️ **[Multi-Cloud IaC with Terraform + Terragrunt](https://github.com/your-username/multicloud-terraform-terragrunt)**  
+- ☁️ **[Multi-Cloud IaC with Terraform + Terragrunt](https://github.com/justrunme/k8s-terraform)**  
   _Reusable infrastructure stacks across AWS and Azure using Terragrunt modules._
 
 ---
