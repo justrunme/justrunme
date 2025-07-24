@@ -63,6 +63,9 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Minikube](https://img.shields.io/badge/-Minikube-F4A261?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Kind](https://img.shields.io/badge/-Kind-1E90FF?style=for-the-badge&logo=kubernetes&logoColor=white)
+![On-Premise](https://img.shields.io/badge/-On--Premise-444444?style=for-the-badge&logo=serverfault&logoColor=white)
 
 ### 🔧 IaC & GitOps
 ![Terraform](https://img.shields.io/badge/-Terraform-5C4EE5?style=for-the-badge&logo=terraform&logoColor=white)
@@ -74,6 +77,7 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ### 🔍 Observability & Security
 ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Jaeger](https://img.shields.io/badge/-Jaeger-00B3E3?style=for-the-badge&logo=jaeger&logoColor=white)
 ![Loki](https://img.shields.io/badge/-Loki-0D1117?style=for-the-badge&logo=grafana&logoColor=white)
 ![eBPF](https://img.shields.io/badge/-eBPF-black?style=for-the-badge&logo=ebpf&logoColor=white)
 ![Trivy](https://img.shields.io/badge/-Trivy-0F92FF?style=for-the-badge&logo=aqua&logoColor=white)
@@ -85,6 +89,9 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ![Python](https://img.shields.io/badge/-Python-306998?style=for-the-badge&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Zsh](https://img.shields.io/badge/-Zsh-89e051?style=for-the-badge&logo=gnu&logoColor=black)
+
+### 🎨 Frontend & Apps
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
 ---
 
