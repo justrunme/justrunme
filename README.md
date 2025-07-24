@@ -65,24 +65,42 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Minikube](https://img.shields.io/badge/-Minikube-F4A261?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Kind](https://img.shields.io/badge/-Kind-1E90FF?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Lambda](https://img.shields.io/badge/-AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
 ![On-Premise](https://img.shields.io/badge/-On--Premise-444444?style=for-the-badge&logo=serverfault&logoColor=white)
 
 ### 🔧 IaC & GitOps
 ![Terraform](https://img.shields.io/badge/-Terraform-5C4EE5?style=for-the-badge&logo=terraform&logoColor=white)
+![Terragrunt](https://img.shields.io/badge/-Terragrunt-4043c0?style=for-the-badge&logo=terraform&logoColor=white)
 ![Pulumi](https://img.shields.io/badge/-Pulumi-3C4C99?style=for-the-badge&logo=pulumi&logoColor=white)
+![AWS CDK](https://img.shields.io/badge/-AWS%20CDK-4B612C?style=for-the-badge&logo=amazonaws&logoColor=white)
+![CloudFormation](https://img.shields.io/badge/-CloudFormation-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Ansible](https://img.shields.io/badge/-Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/-ArgoCD-FB5012?style=for-the-badge&logo=argo&logoColor=white)
 ![Helm](https://img.shields.io/badge/-Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Kured](https://img.shields.io/badge/-Kured-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ### 🔍 Observability & Security
 ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Jaeger](https://img.shields.io/badge/-Jaeger-00B3E3?style=for-the-badge&logo=jaeger&logoColor=white)
 ![Loki](https://img.shields.io/badge/-Loki-0D1117?style=for-the-badge&logo=grafana&logoColor=white)
+![Jaeger](https://img.shields.io/badge/-Jaeger-00B3E3?style=for-the-badge&logo=jaeger&logoColor=white)
 ![eBPF](https://img.shields.io/badge/-eBPF-black?style=for-the-badge&logo=ebpf&logoColor=white)
 ![Trivy](https://img.shields.io/badge/-Trivy-0F92FF?style=for-the-badge&logo=aqua&logoColor=white)
 ![Prowler](https://img.shields.io/badge/-Prowler-EC1C24?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![AWS Security Hub](https://img.shields.io/badge/-AWS%20Security%20Hub-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+### ⚙️ CI/CD & SCM
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![GitLab](https://img.shields.io/badge/-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Bitbucket](https://img.shields.io/badge/-Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white)
+![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+### 🧠 AI, Data & DB
+![Weaviate](https://img.shields.io/badge/-Weaviate-3B3B98?style=for-the-badge&logo=data&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/-DynamoDB-4053D6?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ### 🧑‍💻 Programming & Automation
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
@@ -90,8 +108,9 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Zsh](https://img.shields.io/badge/-Zsh-89e051?style=for-the-badge&logo=gnu&logoColor=black)
 
-### 🎨 Frontend & Apps
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+### 📋 Project & Collaboration
+![Jira](https://img.shields.io/badge/-Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Atlassian](https://img.shields.io/badge/-Atlassian-172B4D?style=for-the-badge&logo=atlassian&logoColor=white)
 
 ---
 
