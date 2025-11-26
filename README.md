@@ -1,4 +1,4 @@
-9# 💫 About Me
+# 💫 About Me
 
 Hi, I’m **Andrey** — a DevOps Engineer who enjoys making infrastructure reliable, reproducible, and occasionally funny 😎
 
@@ -20,8 +20,7 @@ Hi, I’m **Andrey** — a DevOps Engineer who enjoys making infrastructure reli
 
 ![Cloud Infra](https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif)
 
-![DevOps animation](devops-caffe.gif?raw=true)
-  <img src="devops-caffe.gif" width="600" />
+![DevOps animation](devops-caffe.gif)
 
 
 > ⚠️ Fun fact: I once fixed production with a single emoji reaction in Slack (long story).
