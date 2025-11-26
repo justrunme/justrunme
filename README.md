@@ -5,7 +5,7 @@ Hi, I’m **Andrey** — a DevOps Engineer who enjoys making infrastructure reli
 🔧 I design **self-healing platforms** with Kubernetes, GitOps, Terraform and CI/CD pipelines that deploy faster than you can say `kubectl get pods`.  
 💥 Breaking things in staging so they never break in prod.
 
-![DevOps banner](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+![DevOps animation](devops-work.gif)
 
 > **"Infrastructure should be boring. That’s how you know it works."**
 
