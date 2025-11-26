@@ -81,6 +81,8 @@ _for tools, experiments, and ideas that shouldn't run as root._
 
 ## 🌱 Currently Exploring
 
+![DevOps animation](devops-tools.gif)
+
 - 🧠 **eBPF** for observability & zero-trust runtime security  
 - 💡 **Service Meshes** (Istio / Linkerd / Cilium)  
 - 🤖 **AI-powered Infra Automation** (yes, LLMs are writing my Terraform)  
