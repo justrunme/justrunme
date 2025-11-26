@@ -2,6 +2,8 @@
 
 Hi, I’m **Andrey** — a DevOps Engineer who enjoys making infrastructure reliable, reproducible, and occasionally funny 😎
 
+![DevOps animation](devops-look.gif)
+
 🔧 I design **self-healing platforms** with Kubernetes, GitOps, Terraform and CI/CD pipelines that deploy faster than you can say `kubectl get pods`.  
 💥 Breaking things in staging so they never break in prod.
 
