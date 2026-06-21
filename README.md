@@ -1,3 +1,22 @@
+# AI Platform Portfolio
+
+Two repositories demonstrate the complete operating model for private AI workloads:
+
+| Repository | Positioning |
+| --- | --- |
+| [ai-runtime-platform](https://github.com/justrunme/ai-runtime-platform) | **Production-grade AI Runtime Gateway and Inference Platform** — OpenAI-compatible gateway, model routing, inference serving, and autoscaling. |
+| [ai-infra-control-plane](https://github.com/justrunme/ai-infra-control-plane) | **Governance, Observability and Operations Control Plane for AI Infrastructure** — telemetry, policy, forecasting, and operational control. |
+
+```mermaid
+flowchart TB
+  Users["Users"] --> Runtime["AI Runtime Platform"] --> Models["Models: Ollama / vLLM / KServe"]
+  Control["AI Infrastructure Control Plane\nObservability · Governance · Forecasting"] -. operates .-> Runtime
+```
+
+Together, they show a complete AI Platform architecture: the Runtime Platform executes AI workloads, while the Control Plane observes, governs, predicts, and controls them.
+
+---
+
 # 💫 About Me
 
 Hi, I’m **Andrey** — a DevOps Engineer who enjoys making infrastructure reliable, reproducible, and occasionally funny 😎
