@@ -42,7 +42,8 @@ flowchart TB
 
 ### 🥇 [AI Runtime Platform](https://github.com/justrunme/ai-runtime-platform)
 
-[![Animated preview of the AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane/blob/main/docs/videos/previews/hero-overview.gif?raw=true)](docs/videos/hero-overview.mp4)
+[![Animated preview of the AI Runtime Platform Demo](https://github.com/justrunme/ai-runtime-platform/blob/main/docs/images/runtime-demo/full-runtime-decision-loop.gif?raw=true
+)](https://github.com/justrunme/ai-runtime-platform)
 
 _Production-grade AI Runtime Layer for private LLM workloads._
 
@@ -55,6 +56,8 @@ _Production-grade AI Runtime Layer for private LLM workloads._
 - OpenTelemetry GenAI telemetry
 
 ### 🥈 [AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane)
+
+[![Animated preview of the AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane/blob/main/docs/videos/previews/hero-overview.gif?raw=true)](https://github.com/justrunme/ai-infra-control-plane)
 
 _Governance and Operations Platform for AI Infrastructure._
 
