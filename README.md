@@ -42,6 +42,8 @@ flowchart TB
 
 ### 🥇 [AI Runtime Platform](https://github.com/justrunme/ai-runtime-platform)
 
+[![Animated preview of the AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane/blob/main/docs/videos/previews/hero-overview.gif?raw=true)](docs/videos/hero-overview.mp4)
+
 _Production-grade AI Runtime Layer for private LLM workloads._
 
 - OpenAI-compatible APIs
