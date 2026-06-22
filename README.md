@@ -30,7 +30,7 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runti
 
 ---
 
-## 🧪 AI Platform Portfolio
+## 🧪 Featured AI Platform Projects
 
 Two repositories demonstrate the complete operating model for private AI workloads:
 
@@ -40,7 +40,7 @@ flowchart TB
   Control["AI Infrastructure Control Plane\nObservability · Governance · Forecasting · Policy"] -. operates .-> Runtime
 ```
 
-### ⚙️ [AI Runtime Platform](https://github.com/justrunme/ai-runtime-platform)
+### 🥇 [AI Runtime Platform](https://github.com/justrunme/ai-runtime-platform)
 
 _Production-grade AI Runtime Layer for private LLM workloads._
 
@@ -52,7 +52,7 @@ _Production-grade AI Runtime Layer for private LLM workloads._
 - KEDA autoscaling and GitOps deployment path
 - OpenTelemetry GenAI telemetry
 
-### 🧭 [AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane)
+### 🥈 [AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane)
 
 _Governance and Operations Platform for AI Infrastructure._
 
@@ -66,7 +66,7 @@ Together, they show a complete AI Platform architecture: the Runtime Platform ex
 
 ---
 
-## 🧱 Selected Infrastructure & GitOps Work
+## 🧱 Previous Infrastructure Projects
 
 Earlier hands-on work in cloud automation, GitOps, security and platform reliability:
 
@@ -145,8 +145,12 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ![Ollama](https://img.shields.io/badge/-Ollama-111827?style=for-the-badge&logo=ollama&logoColor=white)
 ![OpenAI API](https://img.shields.io/badge/-OpenAI%20API%20Compatible-10A37F?style=for-the-badge&logo=openai&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
+![OpenTelemetry GenAI](https://img.shields.io/badge/-OpenTelemetry%20GenAI-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
 ![KEDA](https://img.shields.io/badge/-KEDA-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Argo Rollouts](https://img.shields.io/badge/-Argo%20Rollouts-FB5012?style=for-the-badge&logo=argo&logoColor=white)
+![OPA](https://img.shields.io/badge/-OPA-7D9199?style=for-the-badge&logo=openpolicyagent&logoColor=white)
+![Rego](https://img.shields.io/badge/-Rego-5C4EE5?style=for-the-badge&logo=openpolicyagent&logoColor=white)
+![Conftest](https://img.shields.io/badge/-Conftest-1f2937?style=for-the-badge&logo=openpolicyagent&logoColor=white)
 ![AI Governance](https://img.shields.io/badge/-AI%20Governance-6f42c1?style=for-the-badge&logo=github&logoColor=white)
 ![Cost Governance](https://img.shields.io/badge/-Cost%20Governance-0f766e?style=for-the-badge&logo=grafana&logoColor=white)
 ![Runtime Decision Engines](https://img.shields.io/badge/-Runtime%20Decision%20Engines-1f2937?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -172,6 +176,7 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ![Ansible](https://img.shields.io/badge/-Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/-ArgoCD-FB5012?style=for-the-badge&logo=argo&logoColor=white)
 ![Helm](https://img.shields.io/badge/-Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Kustomize](https://img.shields.io/badge/-Kustomize-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Kured](https://img.shields.io/badge/-Kured-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ### 🔍 Observability & Security
