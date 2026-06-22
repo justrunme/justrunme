@@ -4,7 +4,7 @@ Hi, I’m **Andrey** — a Platform Engineer and AI Infrastructure Architect foc
 
 I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runtime Engineering to build secure, scalable and governable AI platforms.
 
-🏆 [**Cloud Native Rockstar 2026 Nominee**](https://www.cloudnativeconference.de/rockstars-2026)
+🏆 [**Cloud Native Rockstar 2026**](https://www.cloudnativeconference.de/rockstars-2026)
 
 <p align="center">
   <a href="https://www.cloudnativeconference.de/rockstars-2026">
@@ -12,9 +12,9 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runti
   </a>
 </p>
 
-![DevOps animation](devops-look.gif)
-
 🔧 I design **runtime and control-plane platforms** with Kubernetes, OpenTelemetry, KServe, vLLM, KEDA, Argo CD and Terraform.
+
+![DevOps animation](devops-look.gif)
 
 🧠 Currently focused on AI inference routing, GenAI observability, cost governance, risk scoring and policy-driven operations.
 
