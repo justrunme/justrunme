@@ -1,54 +1,74 @@
-# AI Platform Portfolio
-
-Two repositories demonstrate the complete operating model for private AI workloads:
-
-| Repository | Positioning |
-| --- | --- |
-| [ai-runtime-platform](https://github.com/justrunme/ai-runtime-platform) | **Production-grade AI Runtime Gateway and Inference Platform** — OpenAI-compatible gateway, model routing, inference serving, and autoscaling. |
-| [ai-infra-control-plane](https://github.com/justrunme/ai-infra-control-plane) | **Governance, Observability and Operations Control Plane for AI Infrastructure** — telemetry, policy, forecasting, and operational control. |
-
-```mermaid
-flowchart TB
-  Users["Users"] --> Runtime["AI Runtime Platform"] --> Models["Models: Ollama / vLLM / KServe"]
-  Control["AI Infrastructure Control Plane\nObservability · Governance · Forecasting"] -. operates .-> Runtime
-```
-
-Together, they show a complete AI Platform architecture: the Runtime Platform executes AI workloads, while the Control Plane observes, governs, predicts, and controls them.
-
----
-
 # 💫 About Me
 
-Hi, I’m **Andrey** — a DevOps Engineer who enjoys making infrastructure reliable, reproducible, and occasionally funny 😎
+Hi, I’m **Andrey** — a Platform Engineer and AI Infrastructure Architect focused on production-grade platforms for private AI workloads.
+
+I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runtime Engineering to build secure, scalable and governable AI platforms.
 
 ![DevOps animation](devops-look.gif)
 
-🔧 I design **self-healing platforms** with Kubernetes, GitOps, Terraform and CI/CD pipelines that deploy faster than you can say `kubectl get pods`.  
-💥 Breaking things in staging so they never break in prod.
+🔧 I design **runtime and control-plane platforms** with Kubernetes, OpenTelemetry, KServe, vLLM, KEDA, Argo CD and Terraform.
+
+🧠 Currently focused on AI inference routing, GenAI observability, cost governance, risk scoring and policy-driven operations.
 
 ![DevOps animation](devops-work.gif)
 
-> **"Infrastructure should be boring. That’s how you know it works."**
+> **"AI infrastructure should be observable, governable and boring in production."**
 
 ---
 
 ## 🚀 What I Do
 
-- 🧱 Build cloud-native platforms (Kubernetes, Istio, Argo CD, Terraform)
-- 🔁 Automate everything — from infra to app delivery
-- 🔐 Shift-left security (DevSecOps FTW)
-- 🎯 Architect GitOps at scale with Argo CD
+- 🧱 Build cloud-native and AI-native platforms with Kubernetes, GitOps and Infrastructure as Code
+- 🧠 Design AI runtime layers for private LLM inference, routing, fallback and autoscaling
+- 📡 Implement OpenTelemetry-based observability for infrastructure and GenAI workloads
+- 🛡️ Build governance workflows for cost control, risk scoring, approvals and operational policy
+- 🎯 Architect GitOps delivery with Argo CD, Argo Rollouts, Helm and Terraform
 
 ![DevOps animation](devops-caffe.gif)
 
-
-> ⚠️ Fun fact: I once fixed production with a single emoji reaction in Slack (long story).
+> ⚠️ Fun fact: the best infrastructure is still the one nobody notices during business hours.
 
 ---
 
-## 🧪 My Projects
+## 🧪 AI Platform Portfolio
 
-Explore some of my hands-on work in cloud automation, GitOps, security, and AI-infrastructure tools:
+Two repositories demonstrate the complete operating model for private AI workloads:
+
+```mermaid
+flowchart TB
+  Users["Users / OpenAI SDKs"] --> Runtime["AI Runtime Platform"] --> Models["Models: Ollama / vLLM / KServe"]
+  Control["AI Infrastructure Control Plane\nObservability · Governance · Forecasting · Policy"] -. operates .-> Runtime
+```
+
+### ⚙️ [AI Runtime Platform](https://github.com/justrunme/ai-runtime-platform)
+
+_Production-grade AI Runtime Layer for private LLM workloads._
+
+- OpenAI-compatible APIs
+- Runtime decision engine
+- Health-aware and cost-aware routing
+- Canary deployments and fallback policies
+- Ollama, vLLM and KServe integration
+- KEDA autoscaling and GitOps deployment path
+- OpenTelemetry GenAI telemetry
+
+### 🧭 [AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane)
+
+_Governance and Operations Platform for AI Infrastructure._
+
+- AI observability and OpenTelemetry telemetry
+- Forecasting and digital twin topology
+- Cost governance and risk scoring
+- Approval workflows and policy management
+- Grafana, Loki and GitOps operations
+
+Together, they show a complete AI Platform architecture: the Runtime Platform executes AI workloads, while the Control Plane observes, governs, predicts and controls them.
+
+---
+
+## 🧱 Selected Infrastructure & GitOps Work
+
+Earlier hands-on work in cloud automation, GitOps, security and platform reliability:
 
 ### 🚀 Infrastructure & GitOps
 
@@ -73,22 +93,16 @@ Explore some of my hands-on work in cloud automation, GitOps, security, and AI-i
 
 ---
 
-### 🤖 MLOps / AI / Automation Projects
-
-- 🧠 **[AI DevOps Agent](https://github.com/justrunme/ai-agent)**  
-  _Speech-to-text + GPT + role detection — helps answer questions in real-time._
-
-- 🧬 **[DeepAgent: Autonomous Agents and Tool Discovery with MCP](https://github.com/justrunme/deepagent)**  
-  _Indexing unstructured logs with vector search, semantic alerting & dashboards._
-
----
-
-> 💡 Want more? Visit [https://github.com/justrunme?tab=repositories) for future experiments.
+> 💡 Want more? Visit [github.com/justrunme?tab=repositories](https://github.com/justrunme?tab=repositories) for future experiments.
 
 ## 🤝 Let’s Work Together
 
 🔭 **Open to collaboration** on:
+
 - Platform Engineering / Developer Experience
+- AI Infrastructure Architecture
+- Private LLM Runtime Platforms
+- GenAI Observability and Runtime Governance
 - Kubernetes Operators / Controllers
 - Cloud-native compliance & security
 - Multi-cloud architecture (AWS / Azure / GCP)
@@ -102,24 +116,41 @@ _for tools, experiments, and ideas that shouldn't run as root._
 
 ![DevOps animation](devops-tools.gif)
 
-- 🧠 **eBPF** for observability & zero-trust runtime security  
-- 💡 **Service Meshes** (Istio / Linkerd / Cilium)  
-- 🤖 **AI-powered Infra Automation** (yes, LLMs are writing my Terraform)  
-- 📊 **Kubernetes-native pipelines for data and ML**
+- 🧠 **AI Runtime Decision Engines** for model routing, fallback, health and cost-aware inference
+- 📡 **OpenTelemetry GenAI** for traces, metrics and runtime-level AI observability
+- 🧭 **Control Plane patterns** for governance, forecasting, approvals and policy updates
+- 💡 **Service Meshes for AI Models** with Istio-style thinking applied to LLM backends
+- 🛡️ **eBPF** for observability and zero-trust runtime security
 
 ---
 
 ## 💬 Ask Me About
 
-- 🔄 GitOps, Helm, Argo CD, Terraform  
-- ⚙️ CI/CD with GitHub Actions, GitLab CI  
-- 🛡️ Secure CloudOps, SRE practices  
-- 💥 That time I ran `terraform destroy` on the wrong workspace 🙃  
+- 🤖 AI Runtime Platforms, inference routing, KServe, vLLM and KEDA
+- 📡 OpenTelemetry, GenAI observability, Grafana and Loki
+- 🧭 AI governance, cost governance, risk scoring and approval workflows
+- 🔄 GitOps, Helm, Argo CD, Argo Rollouts and Terraform
+- ⚙️ CI/CD with GitHub Actions and GitLab CI
+- 🛡️ Secure CloudOps and SRE practices
 - 📬 Chat with me on [Telegram → @justrunme](https://t.me/justrunme)
 
 ---
 
 ## 🧰 Tech Stack Highlights
+
+### 🤖 AI Platform Engineering
+
+![KServe](https://img.shields.io/badge/-KServe-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![vLLM](https://img.shields.io/badge/-vLLM-7C3AED?style=for-the-badge&logo=openai&logoColor=white)
+![Ollama](https://img.shields.io/badge/-Ollama-111827?style=for-the-badge&logo=ollama&logoColor=white)
+![OpenAI API](https://img.shields.io/badge/-OpenAI%20API%20Compatible-10A37F?style=for-the-badge&logo=openai&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
+![KEDA](https://img.shields.io/badge/-KEDA-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Argo Rollouts](https://img.shields.io/badge/-Argo%20Rollouts-FB5012?style=for-the-badge&logo=argo&logoColor=white)
+![AI Governance](https://img.shields.io/badge/-AI%20Governance-6f42c1?style=for-the-badge&logo=github&logoColor=white)
+![Cost Governance](https://img.shields.io/badge/-Cost%20Governance-0f766e?style=for-the-badge&logo=grafana&logoColor=white)
+![Runtime Decision Engines](https://img.shields.io/badge/-Runtime%20Decision%20Engines-1f2937?style=for-the-badge&logo=fastapi&logoColor=white)
+![Multi-Model Routing](https://img.shields.io/badge/-Multi--Model%20Routing-2563eb?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ### ☁️ Cloud & Container
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
