@@ -4,6 +4,14 @@ Hi, I’m **Andrey** — a Platform Engineer and AI Infrastructure Architect foc
 
 I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runtime Engineering to build secure, scalable and governable AI platforms.
 
+🏆 [**Cloud Native Rockstar 2026 Nominee**](https://www.cloudnativeconference.de/rockstars-2026)
+
+<p align="center">
+  <a href="https://www.cloudnativeconference.de/rockstars-2026">
+    <img src="./cloud-native-rockstar-2026.gif" alt="Cloud Native Rockstar 2026 Nominee" width="360">
+  </a>
+</p>
+
 ![DevOps animation](devops-look.gif)
 
 🔧 I design **runtime and control-plane platforms** with Kubernetes, OpenTelemetry, KServe, vLLM, KEDA, Argo CD and Terraform.
@@ -42,8 +50,7 @@ flowchart TB
 
 ### 🥇 [AI Runtime Platform](https://github.com/justrunme/ai-runtime-platform)
 
-[![Animated preview of the AI Runtime Platform Demo](https://github.com/justrunme/ai-runtime-platform/blob/main/docs/images/runtime-demo/full-runtime-decision-loop.gif?raw=true
-)](https://github.com/justrunme/ai-runtime-platform)
+[![Animated preview of the AI Runtime Platform Demo](https://github.com/justrunme/ai-runtime-platform/blob/main/docs/images/runtime-demo/full-runtime-decision-loop.gif?raw=true)](https://github.com/justrunme/ai-runtime-platform)
 
 _Production-grade AI Runtime Layer for private LLM workloads._
 
@@ -117,14 +124,14 @@ _for tools, experiments, and ideas that shouldn't run as root._
 
 ---
 
-## 🌱 Currently Exploring
+## 🌱 Currently Building
 
 ![DevOps animation](devops-tools.gif)
 
 - 🧠 **AI Runtime Decision Engines** for model routing, fallback, health and cost-aware inference
-- 📡 **OpenTelemetry GenAI** for traces, metrics and runtime-level AI observability
-- 🧭 **Control Plane patterns** for governance, forecasting, approvals and policy updates
-- 💡 **Service Meshes for AI Models** with Istio-style thinking applied to LLM backends
+- 📡 **OpenTelemetry GenAI Observability** for traces, metrics and runtime-level AI signals
+- 🧭 **AI Infrastructure Control Planes** for governance, forecasting, approvals and policy updates
+- 🛡️ **Policy-Driven AI Governance** with OPA, Rego, Conftest and GitOps workflows
 - 🛡️ **eBPF** for observability and zero-trust runtime security
 
 ---
@@ -156,8 +163,14 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ![OPA](https://img.shields.io/badge/-OPA-7D9199?style=for-the-badge&logo=openpolicyagent&logoColor=white)
 ![Rego](https://img.shields.io/badge/-Rego-5C4EE5?style=for-the-badge&logo=openpolicyagent&logoColor=white)
 ![Conftest](https://img.shields.io/badge/-Conftest-1f2937?style=for-the-badge&logo=openpolicyagent&logoColor=white)
+
+### 🧩 AI Platform Capabilities
+
 ![AI Governance](https://img.shields.io/badge/-AI%20Governance-6f42c1?style=for-the-badge&logo=github&logoColor=white)
 ![Cost Governance](https://img.shields.io/badge/-Cost%20Governance-0f766e?style=for-the-badge&logo=grafana&logoColor=white)
+![Risk Scoring](https://img.shields.io/badge/-Risk%20Scoring-b91c1c?style=for-the-badge&logo=prometheus&logoColor=white)
+![Approval Workflows](https://img.shields.io/badge/-Approval%20Workflows-7c2d12?style=for-the-badge&logo=githubactions&logoColor=white)
+![Digital Twin](https://img.shields.io/badge/-Digital%20Twin-4f46e5?style=for-the-badge&logo=grafana&logoColor=white)
 ![Runtime Decision Engines](https://img.shields.io/badge/-Runtime%20Decision%20Engines-1f2937?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Multi-Model Routing](https://img.shields.io/badge/-Multi--Model%20Routing-2563eb?style=for-the-badge&logo=kubernetes&logoColor=white)
 
