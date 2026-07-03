@@ -42,7 +42,7 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability, runtime eng
 
 ---
 
-## 🚀 AI Infrastructure OS Portfolio
+## 🚀 AI Infrastructure OS Projects
 
 Two repositories demonstrate a complete enterprise reference architecture for governed private AI workloads:
 
