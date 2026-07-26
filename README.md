@@ -1,14 +1,14 @@
 # 💫 About Me
 
-Hi, I’m **Andrey** — a Platform Engineer and AI Infrastructure Architect focused on production-grade platforms for private AI workloads.
+Hi, I’m **Andrey** — a Platform Engineer and AI Infrastructure Architect building an open-source **AI Infrastructure OS** for governed private AI on Kubernetes.
 
-I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runtime Engineering to build secure, scalable and governable AI platforms.
+I combine Kubernetes, GitOps, Infrastructure as Code, Observability, runtime engineering, identity, policy, FinOps and AI governance to build secure, scalable and governable AI platforms.
 
-🔧 I design **runtime and control-plane platforms** with Kubernetes, OpenTelemetry, KServe, vLLM, KEDA, Argo CD and Terraform.
+🔧 I design **control-plane and execution-plane platforms** with Kubernetes, OpenTelemetry, KServe, vLLM, KEDA, Argo CD, Terraform, Redis, Prometheus and OIDC.
 
 ![DevOps animation](devops-look.gif)
 
-🧠 Currently focused on AI inference routing, GenAI observability, cost governance, risk scoring and policy-driven operations.
+🧠 Currently focused on governed AI runtime boundaries: MCP tool governance, intent resolution, OIDC workload identity, Redis-backed quotas, Prometheus-driven policy inputs, cost governance, risk scoring and audit.
 
 ![DevOps animation](devops-work.gif)
 
@@ -31,9 +31,9 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runti
 ## 🚀 What I Do
 
 - 🧱 Build cloud-native and AI-native platforms with Kubernetes, GitOps and Infrastructure as Code
-- 🧠 Design AI runtime layers for private LLM inference, routing, fallback and autoscaling
+- 🧠 Design AI runtime and control-plane layers for private LLM inference, MCP tool calls, intent routing, fallback and autoscaling
 - 📡 Implement OpenTelemetry-based observability for infrastructure and GenAI workloads
-- 🛡️ Build governance workflows for cost control, risk scoring, approvals and operational policy
+- 🛡️ Build governance workflows for identity, policy packs, prompt security, cost control, risk scoring, approvals, audit and sovereign AI
 - 🎯 Architect GitOps delivery with Argo CD, Argo Rollouts, Helm and Terraform
 
 ![DevOps animation](devops-caffe.gif)
@@ -42,43 +42,48 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runti
 
 ---
 
-## 🚀 AI Platform Portfolio
+## 🚀 AI Infrastructure OS Portfolio
 
-Two repositories demonstrate the complete operating model for private AI workloads:
+Two repositories demonstrate a complete enterprise reference architecture for governed private AI workloads:
 
 ```mermaid
 flowchart TB
-  Users["Users / OpenAI SDKs"] --> Runtime["AI Runtime Platform"] --> Models["Models: Ollama / vLLM / KServe"]
-  Control["AI Infrastructure Control Plane\nObservability · Governance · Forecasting · Policy"] -. operates .-> Runtime
+  Users["Users / OpenAI SDKs / Agents"] --> Runtime["Execution Plane\nOpenAI Gateway · MCP Proxy · Intent Proxy"]
+  Runtime --> Models["Models: Ollama / vLLM / KServe"]
+  Runtime --> Tools["MCP Tools"]
+  Control["Control Plane\nIdentity · Policy · Audit · FinOps · SLO · Intent"] --> Runtime
+  Redis["Redis quota state"] --> Control
+  Prom["Prometheus telemetry"] --> Control
+  OIDC["Keycloak OIDC / JWKS"] --> Control
 ```
 
-### 🥇 [AI Runtime Platform](https://github.com/justrunme/ai-runtime-platform)
-
-[![Animated preview of the AI Runtime Platform Demo](https://github.com/justrunme/ai-runtime-platform/blob/main/docs/images/runtime-demo/full-runtime-decision-loop.gif?raw=true)](https://github.com/justrunme/ai-runtime-platform)
-
-_Production-grade AI Runtime Layer for private LLM workloads._
-
-- OpenAI-compatible APIs
-- Runtime Decision Engine for request-time model selection
-- Health-aware and cost-aware routing
-- Canary deployments and fallback policies
-- Ollama, vLLM and KServe integration
-- KEDA autoscaling and GitOps deployment path
-- OpenTelemetry GenAI telemetry
-
-### 🥈 [AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane)
+### 🥇 [AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane)
 
 [![Animated preview of the AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane/blob/main/docs/videos/previews/hero-overview.gif?raw=true)](https://github.com/justrunme/ai-infra-control-plane)
 
-_Governance and Operations Platform for AI Infrastructure._
+_AI Infrastructure OS control plane for governed private AI._
 
-- AI observability and OpenTelemetry telemetry
-- Forecasting and digital twin topology
-- Cost governance and risk scoring
-- Approval workflows and policy management
-- Grafana, Loki and GitOps operations
+- Governance pipeline: policy pack → prompt security → quota → registry → cost → risk → approval
+- Intent engine: natural-language request → agent/model/tools/region execution plan
+- MCP tool registry, agent registry and signed model registry
+- Redis-backed tenant quota and Prometheus live governance inputs
+- Keycloak OIDC / JWKS identity, audit trail, response evaluations and sovereign AI checks
+- Enterprise demo: Control Plane + Execution Plane + Ollama + Redis + Prometheus + Keycloak
 
-Together, they show a complete AI Platform architecture: the Runtime Platform executes AI workloads, while the Control Plane observes, governs, predicts and controls them.
+### 🥈 [AI Runtime Platform](https://github.com/justrunme/ai-runtime-platform)
+
+[![Animated preview of the AI Runtime Platform Demo](https://github.com/justrunme/ai-runtime-platform/blob/main/docs/images/runtime-demo/full-runtime-decision-loop.gif?raw=true)](https://github.com/justrunme/ai-runtime-platform)
+
+_AI Infrastructure OS execution plane for inference, tools and governed runtime traffic._
+
+- OpenAI-compatible gateway with health-aware, cost-aware, fallback and canary routing
+- Governance enforcement through `CONTROL_PLANE_URL`
+- MCP gateway for governed tool calls
+- Intent resolve proxy for agentic workflows
+- OIDC/JWKS verification and workload identity forwarding
+- Redis-backed tenant attribution, Prometheus metrics, vLLM, KServe, KEDA and GitOps
+
+Together, they show a complete AI Infrastructure OS: the Execution Plane runs inference and tool calls, while the Control Plane governs identity, policy, cost, telemetry, audit, agents and intent.
 
 ---
 
@@ -132,9 +137,13 @@ _for tools, experiments, and ideas that shouldn't run as root._
 
 ![DevOps animation](devops-tools.gif)
 
+- 🧠 **AI Infrastructure OS** with Control Plane + Execution Plane architecture
+- 🧩 **MCP and Intent Governance** for agentic tool calls and execution plans
+- 🔐 **OIDC/JWKS Workload Identity** for governed private AI platforms
+- 📊 **Redis + Prometheus Governance Inputs** for live quota and SLO-aware decisions
 - 🧠 **AI Runtime Decision Engines** for model routing, fallback, health and cost-aware inference
 - 📡 **OpenTelemetry GenAI Observability** for traces, metrics and runtime-level AI signals
-- 🧭 **AI Infrastructure Control Planes** for governance, forecasting, approvals and policy updates
+- 🧭 **AI Infrastructure Control Planes** for governance, forecasting, approvals, audit, intent and policy updates
 - 🛡️ **Policy-Driven AI Governance** with OPA, Rego, Conftest and GitOps workflows
 - 🛡️ **eBPF** for observability and zero-trust runtime security
 
@@ -142,9 +151,9 @@ _for tools, experiments, and ideas that shouldn't run as root._
 
 ## 💬 Ask Me About
 
-- 🤖 AI Runtime Platforms, inference routing, KServe, vLLM and KEDA
+- 🤖 AI Infrastructure OS, inference routing, MCP gateways, intent engines, KServe, vLLM and KEDA
 - 📡 OpenTelemetry, GenAI observability, Grafana and Loki
-- 🧭 AI governance, cost governance, risk scoring and approval workflows
+- 🧭 AI governance, identity, policy packs, cost governance, risk scoring, audit and approval workflows
 - 🔄 GitOps, Helm, Argo CD, Argo Rollouts and Terraform
 - ⚙️ CI/CD with GitHub Actions and GitLab CI
 - 🛡️ Secure CloudOps and SRE practices
