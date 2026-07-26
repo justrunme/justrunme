@@ -18,7 +18,7 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runti
 
 ## 🏆 Recognition
 
-[**Cloud Native Rockstar 2026 Nominee**](https://www.cloudnativeconference.de/rockstars-2026)
+[**Cloud Native Rockstar 2026**](https://www.cloudnativeconference.de/rockstars-2026)
 
 <p align="center">
   <a href="https://www.cloudnativeconference.de/rockstars-2026">
