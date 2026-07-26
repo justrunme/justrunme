@@ -48,13 +48,36 @@ Two repositories demonstrate a complete enterprise reference architecture for go
 
 ```mermaid
 flowchart TB
-  Users["Users / OpenAI SDKs / Agents"] --> Runtime["Execution Plane\nOpenAI Gateway · MCP Proxy · Intent Proxy"]
-  Runtime --> Models["Models: Ollama / vLLM / KServe"]
-  Runtime --> Tools["MCP Tools"]
-  Control["Control Plane\nIdentity · Policy · Audit · FinOps · SLO · Intent"] --> Runtime
-  Redis["Redis quota state"] --> Control
-  Prom["Prometheus telemetry"] --> Control
-  OIDC["Keycloak OIDC / JWKS"] --> Control
+  Users["Users / OpenAI SDKs / Agents"] --> Gateway["Execution Plane\nOpenAI Gateway"]
+  Agents["Agentic workloads"] --> Intent["Intent Proxy\n/v1/intent/resolve"]
+  Gateway --> Intent
+  Gateway --> MCP["MCP Gateway\nGoverned tool calls"]
+  Gateway --> Models["Model Backends\nOllama · vLLM · KServe"]
+
+  subgraph Control["Control Plane"]
+    Policy["Policy Packs"]
+    Identity["OIDC / JWKS Identity"]
+    Quota["Redis Tenant Quotas"]
+    Cost["Cost Governance"]
+    Risk["Risk Scoring"]
+    Approval["Human Approval Gate"]
+    Audit["Audit + Response Evaluation"]
+  end
+
+  Intent --> Policy
+  MCP --> Policy
+  Gateway --> Policy
+  Policy --> Identity
+  Policy --> Quota
+  Policy --> Cost
+  Cost --> Risk
+  Risk --> Approval
+  Approval --> Audit
+
+  Prom["Prometheus\nlive SLO + telemetry inputs"] --> Policy
+  Redis["Redis\nshared quota state"] --> Quota
+  Keycloak["Keycloak\nworkload identity"] --> Identity
+  Audit --> Obs["Observability\nGrafana · Loki · OpenTelemetry"]
 ```
 
 ### 🥇 [AI Infrastructure Control Plane](https://github.com/justrunme/ai-infra-control-plane)
