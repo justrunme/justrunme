@@ -108,32 +108,46 @@ _AI Infrastructure OS execution plane for inference, tools and governed runtime 
 
 Together, they show a complete AI Infrastructure OS: the Execution Plane runs inference and tool calls, while the Control Plane governs identity, policy, cost, telemetry, audit, agents and intent.
 
+### 📌 Recommended pinned repositories
+
+These repositories best represent the current portfolio:
+
+| Priority | Repository | Why it should be pinned |
+| --- | --- | --- |
+| 🥇 | [ai-infra-control-plane](https://github.com/justrunme/ai-infra-control-plane) | Control plane for governed private AI: policy, identity, audit, MCP, FinOps, SLOs and runtime governance. |
+| 🥈 | [ai-runtime-platform](https://github.com/justrunme/ai-runtime-platform) | Execution plane for private AI: OpenAI gateway, MCP gateway, runtime decision engine, vLLM/KServe/KEDA and telemetry. |
+| 🥉 | [self-healing-infrastructure-chaos-engineering](https://github.com/justrunme/self-healing-infrastructure-chaos-engineering) | Kubernetes reliability lab with chaos engineering, Prometheus-driven recovery and operational dashboards. |
+| 4 | [gitops-duel-argocd-vs-flux](https://github.com/justrunme/gitops-duel-argocd-vs-flux) | GitOps comparison lab showing Argo CD and Flux delivery patterns on Kubernetes. |
+
 ---
 
-## 🧱 Previous Infrastructure Projects
+## 🧱 Supporting Infrastructure Labs
 
-Earlier hands-on work in cloud automation, GitOps, security and platform reliability:
+Earlier hands-on work that supports the AI Infrastructure OS direction: platform reliability, GitOps delivery, policy enforcement, observability and cloud security.
 
-### 🚀 Infrastructure & GitOps
+### 🚀 Platform Reliability & GitOps
 
 - 🔄 **[Self-Healing Infrastructure with Chaos Engineering](https://github.com/justrunme/self-healing-infrastructure-chaos-engineering)**  
-  _Kubernetes + LitmusChaos + Prometheus — auto-recovery pipelines and dashboards._
+  _Kubernetes reliability lab with LitmusChaos, Prometheus, automated recovery workflows and operator-facing dashboards._
 
 - 📦 **[GitOps Duel: ArgoCD vs Flux](https://github.com/justrunme/gitops-duel-argocd-vs-flux)**  
-  _Side-by-side GitOps deployment comparison with ArgoCD and FluxCD on Kind._
+  _Side-by-side GitOps delivery comparison with Argo CD and Flux on Kubernetes._
 
 - ☁️ **[Multi-Cloud IaC with Terraform + Terragrunt](https://github.com/justrunme/k8s-terraform)**  
-  _Reusable infrastructure stacks across AWS and Azure using Terragrunt modules._
+  _Reusable infrastructure patterns across cloud environments using Terraform and Terragrunt modules._
 
 ---
 
-### 🛡️ Security & Observability
+### 🛡️ Security, Policy & Observability
+
+- 🧱 **[Zero Trust Istio + OPA](https://github.com/justrunme/zero-trust-istio-opa)**
+  _Service mesh and policy enforcement lab for Kubernetes workloads._
 
 - 🔍 **[AWS Security Audit with Prowler](https://github.com/justrunme/prowler)**  
-  _Automated scanning with Prowler + integration with Security Hub + GitHub Actions._
+  _Automated AWS security scanning with Prowler, Security Hub alignment and CI automation._
 
 - 📊 **[Cloud-Native GitOps Platform with ArgoCD, Terraform, Monitoring & Security](https://github.com/justrunme/cloud-devops-platform)**  
-  _Prometheus, Loki, Grafana and Jaeger setup with alerting and dashboards._
+  _Cloud-native platform baseline with Argo CD, Terraform, Prometheus, Loki, Grafana and Jaeger._
 
 ---
 
@@ -151,8 +165,8 @@ Earlier hands-on work in cloud automation, GitOps, security and platform reliabi
 - Cloud-native compliance & security
 - Multi-cloud architecture (AWS / Azure / GCP)
 
-🌍 [**Visit my Lab → Self-Healing Infrastructure with Chaos Engineering**](https://justrunme.github.io/self-healing-infrastructure-chaos-engineering/)  
-_for tools, experiments, and ideas that shouldn't run as root._
+🌍 [**Explore the AI Infrastructure OS portfolio →**](https://github.com/justrunme?tab=repositories)
+_for governed private AI, runtime decision engines, control planes, GitOps and infrastructure labs._
 
 ---
 
