@@ -4,14 +4,6 @@ Hi, I’m **Andrey** — a Platform Engineer and AI Infrastructure Architect foc
 
 I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runtime Engineering to build secure, scalable and governable AI platforms.
 
-🏆 [**Cloud Native Rockstar 2026**](https://www.cloudnativeconference.de/rockstars-2026)
-
-<p align="center">
-  <a href="https://www.cloudnativeconference.de/rockstars-2026">
-    <img src="./cloud-native-rockstar-2026.gif" alt="Cloud Native Rockstar 2026 Nominee" width="360">
-  </a>
-</p>
-
 🔧 I design **runtime and control-plane platforms** with Kubernetes, OpenTelemetry, KServe, vLLM, KEDA, Argo CD and Terraform.
 
 ![DevOps animation](devops-look.gif)
@@ -21,6 +13,18 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runti
 ![DevOps animation](devops-work.gif)
 
 > **"AI infrastructure should be observable, governable and boring in production."**
+
+---
+
+## 🏆 Recognition
+
+[**Cloud Native Rockstar 2026 Nominee**](https://www.cloudnativeconference.de/rockstars-2026)
+
+<p align="center">
+  <a href="https://www.cloudnativeconference.de/rockstars-2026">
+    <img src="./cloud-native-rockstar-2026.gif" alt="Cloud Native Rockstar 2026 Nominee" width="360">
+  </a>
+</p>
 
 ---
 
@@ -38,7 +42,7 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability and AI Runti
 
 ---
 
-## 🧪 Featured AI Platform Projects
+## 🚀 AI Platform Portfolio
 
 Two repositories demonstrate the complete operating model for private AI workloads:
 
@@ -55,7 +59,7 @@ flowchart TB
 _Production-grade AI Runtime Layer for private LLM workloads._
 
 - OpenAI-compatible APIs
-- Runtime decision engine
+- Runtime Decision Engine for request-time model selection
 - Health-aware and cost-aware routing
 - Canary deployments and fallback policies
 - Ollama, vLLM and KServe integration
@@ -171,8 +175,13 @@ _for tools, experiments, and ideas that shouldn't run as root._
 ![Risk Scoring](https://img.shields.io/badge/-Risk%20Scoring-b91c1c?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Approval Workflows](https://img.shields.io/badge/-Approval%20Workflows-7c2d12?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Digital Twin](https://img.shields.io/badge/-Digital%20Twin-4f46e5?style=for-the-badge&logo=grafana&logoColor=white)
+![Forecasting](https://img.shields.io/badge/-Forecasting-0f172a?style=for-the-badge&logo=grafana&logoColor=white)
 ![Runtime Decision Engines](https://img.shields.io/badge/-Runtime%20Decision%20Engines-1f2937?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Multi-Model Routing](https://img.shields.io/badge/-Multi--Model%20Routing-2563eb?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Health-Aware Routing](https://img.shields.io/badge/-Health--Aware%20Routing-16a34a?style=for-the-badge&logo=prometheus&logoColor=white)
+![Cost-Aware Routing](https://img.shields.io/badge/-Cost--Aware%20Routing-0f766e?style=for-the-badge&logo=grafana&logoColor=white)
+![Canary Deployments](https://img.shields.io/badge/-Canary%20Deployments-FB5012?style=for-the-badge&logo=argo&logoColor=white)
+![Model Fallback](https://img.shields.io/badge/-Model%20Fallback-7c3aed?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ### ☁️ Cloud & Container
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
