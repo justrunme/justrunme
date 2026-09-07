@@ -28,6 +28,21 @@ Flagship case studies:
 [BlastGuard](https://justrunme.com/cases/blastguard/) ·
 [Kanister Recovery Contract](https://justrunme.com/cases/kanister-backup-restore/)
 
+## Featured repositories
+
+The six public proof repositories behind the portfolio (ideal GitHub profile pins):
+
+| Repo | Case |
+| --- | --- |
+| [architecture-rehearsal](https://github.com/justrunme/architecture-rehearsal) | [Architecture Rehearsal](https://justrunme.com/cases/architecture-rehearsal/) |
+| [twinops-control-plane](https://github.com/justrunme/twinops-control-plane) | [TwinOps Control Plane](https://justrunme.com/cases/twinops-control-plane/) |
+| [ai-infra-control-plane](https://github.com/justrunme/ai-infra-control-plane) | [AI Infra Control Plane](https://justrunme.com/cases/ai-infra-control-plane/) |
+| [ai-runtime-platform](https://github.com/justrunme/ai-runtime-platform) | [AI Runtime Platform](https://justrunme.com/cases/ai-runtime-execution-plane/) |
+| [blastguard](https://github.com/justrunme/blastguard) | [BlastGuard](https://justrunme.com/cases/blastguard/) |
+| [kanister-backup-restore](https://github.com/justrunme/kanister-backup-restore) | [Kanister Recovery Contract](https://justrunme.com/cases/kanister-backup-restore/) |
+
+
+
 
 ---
 
