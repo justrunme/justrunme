@@ -237,6 +237,7 @@ _for tools, experiments, and ideas that shouldn't run as root._
 - ⚙️ CI/CD with GitHub Actions and GitLab CI
 - 🛡️ Secure CloudOps and SRE practices
 - 📬 Chat with me on [Telegram → @justrunme](https://t.me/justrunme)
+- 𝕏 Follow on [X / Twitter → @Justrunme](https://x.com/Justrunme)
 
 ---
 
