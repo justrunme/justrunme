@@ -33,11 +33,13 @@ Flagship case studies:
 
 ## 🏆 Recognition
 
-[**Cloud Native Rockstar 2026**](https://www.cloudnativeconference.de/rockstars-2026)
+[**Cloud Native Rockstars 2026 · Company Award, 3rd place**](https://justrunme.com/recognition/cloud-native-rockstars-2026/)
+
+Official source: [Cloud Native Conference](https://www.cloudnativeconference.de/cn-rockstars-2026) · Proof on site: [justrunme.com/recognition/…](https://justrunme.com/recognition/cloud-native-rockstars-2026/)
 
 <p align="center">
-  <a href="https://www.cloudnativeconference.de/rockstars-2026">
-    <img src="./cloud-native-rockstar-2026.gif" alt="Cloud Native Rockstar 2026 Nominee" width="360">
+  <a href="https://justrunme.com/recognition/cloud-native-rockstars-2026/">
+    <img src="./cloud-native-rockstar-2026.gif" alt="Cloud Native Rockstars 2026 Company Award" width="360">
   </a>
 </p>
 
