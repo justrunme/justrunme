@@ -14,6 +14,21 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability, runtime eng
 
 > **"AI infrastructure should be observable, governable and boring in production."**
 
+[![Website](https://img.shields.io/badge/site-justrunme.com-111111)](https://justrunme.com/)
+[![Cases](https://img.shields.io/badge/cases-portfolio-111111)](https://justrunme.com/cases/)
+[![Recognition](https://img.shields.io/badge/recognition-CN%20Rockstars%202026-111111)](https://justrunme.com/recognition/cloud-native-rockstars-2026/)
+
+**Website:** [justrunme.com](https://justrunme.com/) · [About](https://justrunme.com/about/) · [Meet](https://justrunme.com/meet/) · [Cases](https://justrunme.com/cases/)
+
+Flagship case studies:
+[Architecture Rehearsal](https://justrunme.com/cases/architecture-rehearsal/) ·
+[TwinOps](https://justrunme.com/cases/twinops-control-plane/) ·
+[AI Infra Control Plane](https://justrunme.com/cases/ai-infra-control-plane/) ·
+[AI Runtime Platform](https://justrunme.com/cases/ai-runtime-execution-plane/) ·
+[BlastGuard](https://justrunme.com/cases/blastguard/) ·
+[Kanister Recovery Contract](https://justrunme.com/cases/kanister-backup-restore/)
+
+
 ---
 
 ## 🏆 Recognition
