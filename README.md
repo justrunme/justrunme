@@ -20,26 +20,50 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability, runtime eng
 
 **Website:** [justrunme.com](https://justrunme.com/) · [About](https://justrunme.com/about/) · [Meet](https://justrunme.com/meet/) · [Cases](https://justrunme.com/cases/)
 
-Flagship case studies:
-[Architecture Rehearsal](https://justrunme.com/cases/architecture-rehearsal/) ·
-[TwinOps](https://justrunme.com/cases/twinops-control-plane/) ·
-[AI Infra Control Plane](https://justrunme.com/cases/ai-infra-control-plane/) ·
-[AI Runtime Platform](https://justrunme.com/cases/ai-runtime-execution-plane/) ·
-[BlastGuard](https://justrunme.com/cases/blastguard/) ·
-[Kanister Recovery Contract](https://justrunme.com/cases/kanister-backup-restore/)
+## Featured systems
 
-## Featured repositories
+Six pinned proof repositories — each with a matching case on [justrunme.com](https://justrunme.com/).
 
-The six public proof repositories behind the portfolio (ideal GitHub profile pins):
+<table>
+  <tr>
+    <td width="50%" valign="top">
 
-| Repo | Case |
-| --- | --- |
-| [architecture-rehearsal](https://github.com/justrunme/architecture-rehearsal) | [Architecture Rehearsal](https://justrunme.com/cases/architecture-rehearsal/) |
-| [twinops-control-plane](https://github.com/justrunme/twinops-control-plane) | [TwinOps Control Plane](https://justrunme.com/cases/twinops-control-plane/) |
-| [ai-infra-control-plane](https://github.com/justrunme/ai-infra-control-plane) | [AI Infra Control Plane](https://justrunme.com/cases/ai-infra-control-plane/) |
-| [ai-runtime-platform](https://github.com/justrunme/ai-runtime-platform) | [AI Runtime Platform](https://justrunme.com/cases/ai-runtime-execution-plane/) |
-| [blastguard](https://github.com/justrunme/blastguard) | [BlastGuard](https://justrunme.com/cases/blastguard/) |
-| [kanister-backup-restore](https://github.com/justrunme/kanister-backup-restore) | [Kanister Recovery Contract](https://justrunme.com/cases/kanister-backup-restore/) |
+### 01 · Architecture Rehearsal
+Know what breaks before you deploy.
+
+[`architecture-rehearsal`](https://github.com/justrunme/architecture-rehearsal) · [Case study ↗](https://justrunme.com/cases/architecture-rehearsal/)
+
+### 02 · TwinOps Control Plane
+GitOps for industrial digital twins.
+
+[`twinops-control-plane`](https://github.com/justrunme/twinops-control-plane) · [Case study ↗](https://justrunme.com/cases/twinops-control-plane/)
+
+### 03 · AI Infra Control Plane
+Governed private AI on Kubernetes.
+
+[`ai-infra-control-plane`](https://github.com/justrunme/ai-infra-control-plane) · [Case study ↗](https://justrunme.com/cases/ai-infra-control-plane/)
+
+</td>
+<td width="50%" valign="top">
+
+### 04 · AI Runtime Platform
+OpenAI-compatible execution plane.
+
+[`ai-runtime-platform`](https://github.com/justrunme/ai-runtime-platform) · [Case study ↗](https://justrunme.com/cases/ai-runtime-execution-plane/)
+
+### 05 · BlastGuard
+Don't count CVEs — predict blast radius.
+
+[`blastguard`](https://github.com/justrunme/blastguard) · [Case study ↗](https://justrunme.com/cases/blastguard/)
+
+### 06 · Kanister Recovery Contract
+Restore should be proved, not assumed.
+
+[`kanister-backup-restore`](https://github.com/justrunme/kanister-backup-restore) · [Case study ↗](https://justrunme.com/cases/kanister-backup-restore/)
+
+</td>
+</tr>
+</table>
 
 
 
