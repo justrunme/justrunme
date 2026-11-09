@@ -15,10 +15,30 @@ I combine Kubernetes, GitOps, Infrastructure as Code, Observability, runtime eng
 > **"AI infrastructure should be observable, governable and boring in production."**
 
 [![Website](https://img.shields.io/badge/site-justrunme.com-111111)](https://justrunme.com/)
-[![Cases](https://img.shields.io/badge/cases-portfolio-111111)](https://justrunme.com/cases/)
+[![Cases](https://img.shields.io/badge/cases-justrunme.com-111111)](https://justrunme.com/cases/)
 [![Recognition](https://img.shields.io/badge/recognition-CN%20Rockstars%202026-111111)](https://justrunme.com/recognition/cloud-native-rockstars-2026/)
 
 **Website:** [justrunme.com](https://justrunme.com/) · [About](https://justrunme.com/about/) · [Meet](https://justrunme.com/meet/) · [Cases](https://justrunme.com/cases/)
+
+## Book & research
+
+<table>
+  <tr>
+    <td width="120" valign="top">
+      <a href="https://justrunme.com/book/"><img src="https://justrunme.com/media/book/prove-it-cover-800.jpg" alt="Prove It Before Production book cover" width="110"></a>
+    </td>
+    <td valign="top">
+
+**Book:** [Prove It Before Production: Evidence-Driven Infrastructure Engineering for Kubernetes and AI](https://justrunme.com/book/) · [Paperback](https://www.amazon.de/dp/B0HQGCL47W) · [Kindle](https://www.amazon.de/dp/B0HDM9R68K)
+
+**Preprint:** [Fail-Closed Authorization for Tool-Using AI Agents: A Capability Contract and Case Study](https://doi.org/10.5281/zenodo.24075886) (Zenodo, 2026) · code: [`agent-security-contract`](https://github.com/justrunme/agent-security-contract)
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24075886-1682D4)](https://doi.org/10.5281/zenodo.24075886)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--7583--4314-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-7583-4314)
+
+  </td>
+  </tr>
+</table>
 
 ## Featured systems
 
